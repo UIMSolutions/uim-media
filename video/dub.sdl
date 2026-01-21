@@ -1,6 +1,6 @@
 // Metadata
 name "video"
-description "uim library for internationalization (i18n) and translations"
+description "UIM library for working with video files (MP4, AVI, MKV, WebM, etc.)"
 homepage "https://www.sueel.de/uim/media/video"
 authors "Ozan Nurettin Süel"
 copyright "Copyright © 2018 - 2026, ONS"
@@ -10,8 +10,13 @@ license "Apache-2.0"
 targetName "uim-media-video"
 targetType "library"
 
+// Source paths
+sourcePaths "source"
+importPaths "source"
+
 // Dependencies
 dependency "uim-framework" version="~>26.1.2"
+dependency "vibe-d" version="~>0.10.3"
 
 // Configurations
 configuration "default" {
