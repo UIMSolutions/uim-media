@@ -8,6 +8,7 @@ module uim.media.image.operations;
 import uim.media.image.base;
 import std.algorithm;
 import std.math;
+import std.string : toLower;
 import vibe.core.log;
 
 @safe:

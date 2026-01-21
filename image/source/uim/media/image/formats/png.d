@@ -59,11 +59,13 @@ class PngImage : Image {
         pos += 4;
 
         // Read width (4 bytes, big-endian)
-        _width = bigEndianToNative!uint(data[pos .. pos + 4]);
+        ubyte[4] widthBytes = data[pos .. pos + 4];
+        _width = bigEndianToNative!uint(widthBytes);
         pos += 4;
 
         // Read height (4 bytes, big-endian)
-        _height = bigEndianToNative!uint(data[pos .. pos + 4]);
+        ubyte[4] heightBytes = data[pos .. pos + 4];
+        _height = bigEndianToNative!uint(heightBytes);
         pos += 4;
 
         // Read image info
