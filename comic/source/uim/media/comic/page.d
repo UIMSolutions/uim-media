@@ -133,8 +133,8 @@ class ComicPage : ComicData {
      */
     override string toString() const @safe {
         string result = format("Page %d: %s\n", pageNumber, filename);
-        result ~= format("  Type: %s\n", getTypeString());
-        result ~= format("  Format: %s\n", imageFormat);
+        result ~= "  Type: %s\n".format(getTypeString());
+        result ~= "  Format: %s\n".format( imageFormat);
         
         if (width > 0 && height > 0) {
             result ~= format("  Dimensions: %dx%d\n", width, height);
