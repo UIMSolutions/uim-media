@@ -13,11 +13,3 @@ import std.format : fmt = format;
 import vibe.core.log;
 
 @safe:
-
-
-/**
- * Metadata writer interface
- */
-interface IMetadataWriter {
-    void write(Audio audio, AudioMetadata metadata);
-}
