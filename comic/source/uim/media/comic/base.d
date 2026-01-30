@@ -5,13 +5,7 @@
 **********************************************************************************************************/
 module uim.media.comic.base;
 
-import std.algorithm;
-import std.array;
-import std.conv;
-import std.exception;
-import std.string;
-import std.path;
-import std.format : fmt = format;
+import uim.media.comic;
 
 @safe:
 
