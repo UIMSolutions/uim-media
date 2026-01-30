@@ -5,40 +5,8 @@
 **********************************************************************************************************/
 module uim.media.audio.base;
 
-import std.algorithm;
-import std.array;
-import std.conv;
-import std.exception;
-import std.file;
-import std.path;
-import std.string;
-import std.format : fmt = format;
-import core.time;
-import vibe.core.file;
-import vibe.core.log;
-
+import uim.media.audio;
 @safe:
-
-/**
- * Audio format enumeration
- */
-enum AudioFormat {
-    unknown,
-    mp3,
-    wav,
-    flac,
-    ogg,
-    aac,
-    m4a,
-    wma,
-    opus,
-    ape,
-    alac,
-    aiff,
-    au,
-    mid,
-    midi
-}
 
 /**
  * Audio codec enumeration
