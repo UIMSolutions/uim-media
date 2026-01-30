@@ -5,23 +5,8 @@
 **********************************************************************************************************/
 module uim.media.midi.base;
 
-import std.algorithm;
-import std.array;
-import std.conv;
-import std.exception;
-import std.string;
-import std.format : fmt = format;
-
+import uim.media.midi;
 @safe:
-
-
-/**
- * MIDI timing division types
- */
-enum TimeDivisionType {
-    ticksPerQuarterNote,  /// Metrical timing
-    framesPerSecond       /// Time-code-based timing
-}
 
 /**
  * MIDI event types
