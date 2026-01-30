@@ -14,12 +14,6 @@ import vibe.core.log;
 
 @safe:
 
-/**
- * Metadata reader interface
- */
-interface IMetadataReader {
-    AudioMetadata read(Audio audio);
-}
 
 /**
  * Metadata writer interface
