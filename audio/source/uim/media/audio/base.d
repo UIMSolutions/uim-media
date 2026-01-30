@@ -19,15 +19,5 @@ enum ChannelConfig {
     custom
 }
 
-/**
- * Audio quality preset
- */
-enum AudioQuality {
-    low,
-    medium,
-    high,
-    veryhigh,
-    lossless
-}
 
 
