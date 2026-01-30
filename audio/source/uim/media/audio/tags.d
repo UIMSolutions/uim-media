@@ -13,19 +13,6 @@ import std.string;
 @safe:
 
 /**
- * ID3 tag version enumeration
- */
-enum ID3Version {
-    none,
-    v1,
-    v1_1,
-    v2_2,
-    v2_3,
-    v2_4
-}
-
-
-/**
  * Common audio tag fields
  */
 struct TagField {
