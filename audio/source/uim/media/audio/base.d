@@ -9,25 +9,6 @@ import uim.media.audio;
 @safe:
 
 /**
- * Audio codec enumeration
- */
-enum AudioCodec {
-    unknown,
-    mp3,
-    aac,
-    vorbis,
-    opus,
-    flac,
-    alac,
-    pcm,
-    wma,
-    ape,
-    ac3,
-    dts,
-    amr
-}
-
-/**
  * Audio channel configuration
  */
 enum ChannelConfig {
