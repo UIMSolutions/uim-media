@@ -88,8 +88,9 @@ class ComicPage : ComicData {
      * Get aspect ratio
      */
     double getAspectRatio() const @safe {
-        if (height == 0) return 0.0;
-        return cast(double)width / height;
+        return height == 0 
+? 0.0 
+: cast(double)width / height;
     }
     
     /**
